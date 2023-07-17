@@ -1,15 +1,16 @@
 import React from 'react';
-import  ReactDOM from 'react-dom';
 import Heading from './components/Heading';
 import Paragraph from './components/Paragraph';
+import List from './components/List';
 
-ReactDOM.render(
-  <>
-  <Heading />
-  <Paragraph />
-  <ol>
-    <li>Bimo</li>
-    <li>Alisha</li>
-  </ol>
-  </>,document.getElementById('root')
-);
+function App(){
+  return(
+    <>
+    <Heading />
+    <Paragraph />
+    <List />
+    </>
+  );
+}
+
+export default App;
