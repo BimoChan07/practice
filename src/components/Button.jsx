@@ -13,7 +13,7 @@ cursor:pointer;
 user-select:none;
 border-radius:0.3rem;`
 
-const Button = ({ type, variant, className, id, onClick, children }) {
+const Button = ({ type, variant, className, id, onClick }) {
   return (
     <button
       type={type ? type : "button"}
